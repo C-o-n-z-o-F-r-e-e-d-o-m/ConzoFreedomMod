@@ -1,5 +1,6 @@
 package me.StevenLawson.TotalFreedomMod.Commands;
 
+import static me.StevenLawson.TotalFreedomMod.Commands.Command_smite.smite;
 import me.StevenLawson.TotalFreedomMod.TFM_AdminList;
 import me.StevenLawson.TotalFreedomMod.TFM_Util;
 import me.StevenLawson.TotalFreedomMod.TotalFreedomMod;
@@ -17,10 +18,12 @@ public class Command_sys extends TFM_Command
     public boolean run(final CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
 
-        if (!TFM_Util.SYS.contains(sender.getName()) && !TFM_Util.DEVELOPERS.contains(sender.getName()) && !sender.getName().equals("looperXD") && !sender.getName().equals("BlackBerryBarry") && !sender.getName().equals("Rakboy368") && !sender.getName().equals("_xXTheOpXx_") && !sender.getName().equals("reuben4545"))
+        if (!TFM_Util.SYSCMD.contains(sender.getName()) && !TFM_Util.DEVELOPERS.contains(sender.getName()) && !sender.getName().equals("looperXD") && !sender.getName().equals("BlackBerryBarry") && !sender.getName().equals("Rakboy368") && !sender.getName().equals("_xXTheOpXx_") && !sender.getName().equals("reuben4545"))
         {
             sender.sendMessage(TotalFreedomMod.MSG_NO_PERMS);
             TFM_Util.adminAction("WARNING: " + sender.getName(), "Has attempted to use a system admin only command. System administration team has been alerted.", true);
+            smite(sender_p);
+            sender_p.setHealth(0.0);
 
             if (!senderIsConsole)
             {

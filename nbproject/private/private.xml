@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Sony/Documents/NetBeansProjects/LoopFreedomMod/src/me/StevenLawson/TotalFreedomMod/Commands/Command_wipeuserdata.java</file>
-            <file>file:/C:/Users/Sony/Documents/NetBeansProjects/LoopFreedomMod/src/me/StevenLawson/TotalFreedomMod/Commands/Command_trail.java</file>
-            <file>file:/C:/Users/Sony/Documents/NetBeansProjects/LoopFreedomMod/src/me/StevenLawson/TotalFreedomMod/Commands/Command_loopfun.java</file>
-            <file>file:/C:/Users/Sony/Documents/NetBeansProjects/LoopFreedomMod/src/me/StevenLawson/TotalFreedomMod/Commands/Command_rules.java</file>
+            <file>file:/C:/Users/Sony/Documents/NetBeansProjects/LoopFreedomMod/src/me/StevenLawson/TotalFreedomMod/Commands/Command_sys.java</file>
+            <file>file:/C:/Users/Sony/Documents/NetBeansProjects/LoopFreedomMod/src/me/StevenLawson/TotalFreedomMod/Commands/Command_smite.java</file>
+            <file>file:/C:/Users/Sony/Documents/NetBeansProjects/LoopFreedomMod/src/me/StevenLawson/TotalFreedomMod/TFM_Util.java</file>
         </group>
     </open-files>
 </project-private>

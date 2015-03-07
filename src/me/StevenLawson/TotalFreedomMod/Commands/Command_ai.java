@@ -14,7 +14,7 @@ public class Command_ai extends TFM_Command
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
         
-            playerMsg(ChatColor.AQUA + "The following is accurate as of 2/22/15");
+            playerMsg(ChatColor.AQUA + "The following is accurate as of 3/6/15");
             playerMsg(ChatColor.RED + "Currently applying for Super Admin is impossible");
          /*  playerMsg(ChatColor.GREEN + "To apply for admin you need to go to the forums at http://freedomop.boards.net");
             playerMsg(ChatColor.YELLOW + "Then read the requirements in the 'admin applications' board.");

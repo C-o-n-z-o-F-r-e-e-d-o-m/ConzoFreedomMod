@@ -1030,7 +1030,7 @@ public class TFM_PlayerListener implements Listener
             TFM_Util.bcastMsg(ChatColor.AQUA + "RobinGall2910 is a " + ChatColor.DARK_GREEN + "Zombie Killer " + ChatColor.AQUA + "and..");
             TFM_Util.bcastMsg(ChatColor.GOLD + ":O  there's more!");
         }
-        else if (username.equalsIgnoreCase("Luka4Gamer"))
+        else if (username.equalsIgnoreCase("LukaG4mer"))
         {
             //set tag
             player.setPlayerListName(ChatColor.DARK_PURPLE + player.getName());

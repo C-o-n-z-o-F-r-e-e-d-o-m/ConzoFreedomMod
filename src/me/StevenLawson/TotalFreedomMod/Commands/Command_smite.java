@@ -39,7 +39,7 @@ public class Command_smite extends TFM_Command
         }
 
         TFM_Util.bcastMsg(ChatColor.RED + sender.getName() + " - Smiting " + player.getName() + " Reason: " + reason);
-
+        TFM_Util.bcastMsg(ChatColor.GOLD + "Smited by ~ " + sender.getName());
         smite(player);
 
         return true;
