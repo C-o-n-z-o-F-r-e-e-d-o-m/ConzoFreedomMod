@@ -1098,7 +1098,8 @@ public class TFM_PlayerListener implements Listener
             player.setPlayerListName (ChatColor.DARK_BLUE + "xX" + ChatColor.GOLD + "Lemon" + ChatColor.DARK_BLUE + "Xx");
             player.setDisplayName("Reuben");
             //Set tag
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Lead-Developer&8]");
+            //I edited my tag looperXD
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&1L&2e&3a&4d&5-&6D&1e&2v&3e&4l&5o&6p&1e&2r&8]");
             TFM_Util.bcastMsg (ChatColor.AQUA + "reuben4545 is the " + ChatColor.GOLD + "Lead-Developer ");       
         }
         else if (username.equalsIgnoreCase("SupItsDillon"))
