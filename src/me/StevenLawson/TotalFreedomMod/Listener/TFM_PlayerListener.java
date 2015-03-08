@@ -1081,13 +1081,6 @@ public class TFM_PlayerListener implements Listener
             TFM_PlayerData.getPlayerData(player).setTag("&8[&5Developer&8]");
             TFM_Util.bcastMsg(ChatColor.RED + "Don't Mess with _Nobody_ or he will ban you!");
         }
-        else if (username.equalsIgnoreCase("DaPancake"))
-        {
-            //Do not change  you tag
-            player.setPlayerListName(ChatColor.DARK_PURPLE + player.getName());
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Developer&8]");
-            TFM_Util.bcastMsg(ChatColor.RED + "Yummy..");
-        }
         else if (username.equalsIgnoreCase("puppylover989"))
         {
             player.setPlayerListName(ChatColor.BLUE + player.getName());
