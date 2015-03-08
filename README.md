@@ -16,3 +16,11 @@ This plugin was originally coded by StevenLawson (Madgeek1450), with Jerom van d
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) if you are interested in developing TotalFreedomMod. For information on how TotalFreedomMod is licensed, please see [LICENSE.md](LICENSE.md).
 
+FreedomOPMod
+============
+
+FreedomOpMod for the minecraft server freedom OP
+
+Website:
+www.freedomop.boards.net
+
