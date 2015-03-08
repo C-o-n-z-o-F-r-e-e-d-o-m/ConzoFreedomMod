@@ -61,19 +61,19 @@ public class TFM_ServerListener implements Listener
 
         if (TFM_ConfigEntry.ADMIN_ONLY_MODE.getBoolean())
         {
-            event.setMotd(ChatColor.RED + "FreedomOP Is currently in admin-only-mode.");
+            event.setMotd(ChatColor.RED + "LoopFreedom Is currently in admin-only-mode.");
             return;
         }
 
         if (Bukkit.hasWhitelist())
         {
-            event.setMotd(ChatColor.RED + "FreedomOP Is currently in whitelist mode.");
+            event.setMotd(ChatColor.RED + "LoopFreedom Is currently in whitelist mode.");
             return;
         }
 
         if (Bukkit.getOnlinePlayers().length >= Bukkit.getMaxPlayers())
         {
-            event.setMotd(ChatColor.RED + "FreedomOP is currently full.");
+            event.setMotd(ChatColor.RED + "LoopFreedom is currently full.");
             return;
         }
 

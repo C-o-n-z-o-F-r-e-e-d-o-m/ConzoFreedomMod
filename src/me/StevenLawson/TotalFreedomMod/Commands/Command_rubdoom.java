@@ -38,8 +38,8 @@ return true;
 TFM_Util.adminAction(sender.getName(), "Smashing the RubHammer Over" + player.getName(), true);
 TFM_Util.bcastMsg(player.getName() + " will be completely Smashed!", ChatColor.RED);
 TFM_Util.bcastMsg(sender.getName() + " - You Will Be Rubiticly Smashed!" + ChatColor.RED);
-TFM_Util.bcastMsg(player.getName() + " - Please, No, I have childeren!", ChatColor.RED);
-TFM_Util.bcastMsg(sender.getName() + " - (sarcastic) oh no! Your Childeren wil suffer because they have a rogue of a Father/Mother!", ChatColor.RED);
+TFM_Util.bcastMsg(player.getName() + " - Please, No, I have children!", ChatColor.RED);
+TFM_Util.bcastMsg(sender.getName() + " - (sarcastic) oh no! Your Children wil suffer because they have a rogue of a Father/Mother!", ChatColor.RED);
 TFM_Util.bcastMsg(sender.getName() + " - I am doing them a FAVOR Getting rid of you!", ChatColor.RED);
 TFM_Util.bcastMsg(player.getName() + " - GoodBye. Cruel Life.", ChatColor.RED);
 

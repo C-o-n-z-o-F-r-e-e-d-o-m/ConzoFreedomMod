@@ -1081,6 +1081,13 @@ public class TFM_PlayerListener implements Listener
             TFM_PlayerData.getPlayerData(player).setTag("&8[&5Developer&8]");
             TFM_Util.bcastMsg(ChatColor.RED + "Don't Mess with _Nobody_ or he will ban you!");
         }
+        else if (username.equalsIgnoreCase("DaPancake"))
+        {
+            //Do not change  you tag
+            player.setPlayerListName(ChatColor.DARK_PURPLE + player.getName());
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Developer&8]");
+            TFM_Util.bcastMsg(ChatColor.RED + "Yummy..");
+        }
         else if (username.equalsIgnoreCase("puppylover989"))
         {
             player.setPlayerListName(ChatColor.BLUE + player.getName());
@@ -1127,9 +1134,19 @@ public class TFM_PlayerListener implements Listener
             TFM_AdminList.removeSuperadmin(player);
             player.kickPlayer(ChatColor.RED + "Fuck off. :)");
         }
+        else if (username.equalsIgnoreCase("RubTheKiller"))
+        {
+            player.setPlayerListName (ChatColor.DARK_BLUE + "xX" + ChatColor.GOLD + "Lemon" + ChatColor.DARK_BLUE + "Xx");
+            player.setDisplayName("Reuben");
+            //Set tag
+            //I edited my tag looperXD
+            //Also this is my alt looperXD
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&1L&2e&3a&4d&5-&6D&1e&2v&3e&4l&5o&6p&1e&2r&8]");
+            TFM_Util.bcastMsg (ChatColor.AQUA + "RubTheKiller is the " + ChatColor.RED + "reuben4545's alt! ");       
+        }
         player.sendMessage(ChatColor.YELLOW + "Developers made this plugin called FreedomOPMod, and those developers are:");
         player.sendMessage(ChatColor.GOLD + " Sexy buildcarter8, PieGuy7896, RobinGall2910, cowgomooo12, CrafterSmith12, SupItsDillon");
-        player.sendMessage(ChatColor.YELLOW + "But this is LoopFreedomMod, It is a Merged Verison of FOPM, Made by looperXD");
+        player.sendMessage(ChatColor.YELLOW + "But this is LoopFreedomMod, It is a Merged Verison of FOPM, Made by looperXD and reuben4545");
         player.sendMessage(ChatColor.GRAY + "-=======================+=======================-");
         player.sendMessage(ChatColor.RED + "Welcome to LoopFeeedom, an all op clone");
         player.sendMessage(ChatColor.GOLD + "If you aren't OP make sure to ask!");
