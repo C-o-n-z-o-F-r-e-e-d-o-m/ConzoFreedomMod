@@ -9,4 +9,4 @@ description: A Minecraft plugin created for FreedomOP
 # Required software for pluin to function correctly.
 softdepend: [BukkitTelnet, DisguiseCraft, WorldEdit, Essentials, BarAPI, Craftbukkit/Spigot]
 # Devs/creators/coders
-authors: [looperXD, Madgeek1450, DarthSalamon, buildcarter8, SupItsDillon, Robo_Lord, RobinGall2910, cowgomooo12, PieGuy7896, CrafterSmith12]
+authors: [looperXD, Madgeek1450, Prozza, DarthSalamon, buildcarter8, SupItsDillon, Robo_Lord, RobinGall2910, cowgomooo12, PieGuy7896, CrafterSmith12]
